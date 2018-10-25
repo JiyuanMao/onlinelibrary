@@ -1,3 +1,36 @@
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"username":"theo","password":"123456"}
+
+<> 2018-10-25T041139.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"username":"theo","password":"123456"}
+
+<> 2018-10-25T041049.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"username":"theo","password":"123456"}
+
+<> 2018-10-25T035709.200.json
+
+###
+
 DELETE http://localhost:3000/users/1001
 Accept: */*
 Cache-Control: no-cache
@@ -508,39 +541,6 @@ Content-Type: application/json
 {"name": "INTRODUCTION TO QUANTUM COMPUTERS",   "author": "Gary D. Doolen，Ronnie Mainieri，Vldimir I. Tsifrinovich，Gennady P. Berman","publisher":"Southeast University Press","category":"Computing Science","upvotes":45}
 
 <> 2018-10-17T094255.404.html
-
-###
-
-PUT http://localhost:3000/books/5bc79e486c4d860060ab6a7f
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "INTRODUCTION TO QUANTUM COMPUTERS",   "author": "Gary D. Doolen，Ronnie Mainieri，Vldimir I. Tsifrinovich，Gennady P. Berman","publisher":"Southeast University Press","category":"Computing Science","upvotes":45}
-
-<> 2018-10-17T094226.404.html
-
-###
-
-POST http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "INTRODUCTION TO QUANTUM COMPUTERS",   "author": "Gary D. Doolen，Ronnie Mainieri，Vldimir I. Tsifrinovich，Gennady P. Berman","publisher":"Southeast University Press","category":"Computing Science"}
-
-<> 2018-10-17T094040.200.json
-
-###
-
-POST http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": 'INTRODUCTION TO QUANTUM COMPUTERS',   "author": 'Gary D. Doolen，Ronnie Mainieri，Vldimir I. Tsifrinovich，Gennady P. Berman',"publisher":'Southeast University Press',"category":"Computing Science"}
-
-<> 2018-10-17T093943.400.html
 
 ###
 
